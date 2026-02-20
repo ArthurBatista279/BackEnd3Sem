@@ -14,6 +14,18 @@ namespace FilmesMoura.WebAPI.Controllers
         {
             _generoRepository = generoRepository;
         }
+        [HttpGet("{id}")]
+        public IActionResult Listar(Guid id)
+        {
+            try
+            {
+                return Ok(_generoRepository.BuscarPorId(id));
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
 
         [HttpPost]
         public IActionResult Cadastrar(Genero novoGenero)

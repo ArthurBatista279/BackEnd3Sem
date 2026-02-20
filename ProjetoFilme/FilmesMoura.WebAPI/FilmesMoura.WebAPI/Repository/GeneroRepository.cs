@@ -18,25 +18,35 @@ namespace FilmesMoura.WebAPI.Repository
 
         public void AtualizarIdUrl(Guid id, Genero novoGenero)
         {
+
+            throw new NotImplementedException();
+        }
+        public Genero BuscarPorId(Guid id)
+        {
             try
             {
-                _context.Generos.Add(novoGenero);
+                Genero generoBuscado = _context.Generos.Find(id.ToString());
+                return generoBuscado;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
+        public void Cadastrar(Genero NovoGenero)
+        {
+            try
+            {
+                NovoGenero.IdGenero = Guid.NewGuid().ToString();
+                _context.Generos.Add(NovoGenero);
                 _context.SaveChanges();
 
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                throw;
             }
-        }
-        public Genero BuscarPorId(Guid id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Cadastrar(Genero NovoGenero)
-        {
-            throw new NotImplementedException();
         }
 
         public void Deletar(Guid id)
@@ -46,7 +56,16 @@ namespace FilmesMoura.WebAPI.Repository
 
         public List<Genero> Listar()
         {
-            throw new NotImplementedException();
+
+            try
+            {
+                List<Genero> listaGeneros = _context.Generos.ToList();  
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+             return _context.Generos.ToList();
         }
     }
 }
