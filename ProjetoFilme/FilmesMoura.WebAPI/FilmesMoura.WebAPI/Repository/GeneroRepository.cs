@@ -1,6 +1,7 @@
 ﻿using FilmesMoura.WebAPI.BdContextFilme;
 using FilmesMoura.WebAPI.Interfaces;
 using FilmesMoura.WebAPI.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FilmesMoura.WebAPI.Repository
 {
@@ -13,13 +14,41 @@ namespace FilmesMoura.WebAPI.Repository
         }
         public void AtualizarIdCorpo(Genero GeneroAtualizado)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Genero generoBuscado = _context.Generos.Find(GeneroAtualizado.IdGenero)!;
+
+                if (generoBuscado != null)
+                {
+                    generoBuscado.Nome = GeneroAtualizado.Nome;
+                }
+                _context.Generos.Update(generoBuscado);
+                _context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }   
+
         }
-
-        public void AtualizarIdUrl(Guid id, Genero novoGenero)
+        public void AtualizarIdUrl(Guid id, Genero generoAtualizado)
         {
+              
+            try
+            {
+                Genero generoBuscado = _context.Generos.Find(id.ToString());
 
-            throw new NotImplementedException();
+                if (generoBuscado != null)
+                {
+                    generoBuscado.Nome = generoAtualizado.Nome;
+                }
+                _context.Generos.Update(generoBuscado);
+                _context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
         public Genero BuscarPorId(Guid id)
         {
@@ -51,7 +80,21 @@ namespace FilmesMoura.WebAPI.Repository
 
         public void Deletar(Guid id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Genero generoBuscado = _context.Generos.Find(id.ToString());
+
+                if (generoBuscado != null)
+                {
+                    _context.Generos.Remove(generoBuscado);
+                }
+                _context.SaveChanges();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public List<Genero> Listar()
@@ -59,13 +102,16 @@ namespace FilmesMoura.WebAPI.Repository
 
             try
             {
-                List<Genero> listaGeneros = _context.Generos.ToList();  
+                List<Genero> listaGeneros = _context.Generos.ToList();
             }
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);
             }
-             return _context.Generos.ToList();
+            return _context.Generos.ToList();
         }
+
     }
+
 }
+

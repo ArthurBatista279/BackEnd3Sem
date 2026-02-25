@@ -8,7 +8,7 @@ namespace FilmesMoura.WebAPI.Interfaces
         List<Genero> Listar();
 
         void AtualizarIdCorpo(Genero generoAtualizado);
-        void AtualizarIdUrl(Guid id, Genero genero);
+        void AtualizarIdUrl(Guid id, Genero generoAtualizado);
         void Deletar(Guid id);
         Genero BuscarPorId(Guid id);
 

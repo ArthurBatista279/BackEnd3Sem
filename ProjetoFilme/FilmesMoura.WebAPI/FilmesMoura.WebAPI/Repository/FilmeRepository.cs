@@ -1,28 +1,88 @@
-﻿using FilmesMoura.WebAPI.Interfaces;
+﻿using FilmesMoura.WebAPI.BdContextFilme;
+using FilmesMoura.WebAPI.Interfaces;
 using FilmesMoura.WebAPI.Models;
 
 namespace FilmesMoura.WebAPI.Repository
 {
     public class FilmeRepository : IFilmeRepository
     {
+        private readonly FilmeContext _context;
+
+        public FilmeRepository(FilmeContext context)
+        {
+            _context = context;
+        }
+
         public void AtualizarIdCorpo(Filme filmeAtualizado)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Filme filmeBuscado = _context.Filmes.Find(filmeAtualizado.IdFilme)!;
+
+                if(filmeBuscado != null)
+                {
+                    filmeBuscado.Titulo = filmeAtualizado.Titulo;
+                    filmeBuscado.IdGenero = filmeAtualizado.IdGenero;
+                }
+                _context.Filmes.Update(filmeBuscado!);
+                _context.SaveChanges();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public void AtualizarIdUrl(Guid id, Filme filmeAtualizado)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Filme filmeBuscado = _context.Filmes.Find(id.ToString());
+
+                if (filmeBuscado != null)
+                {
+                    filmeBuscado.Titulo = filmeAtualizado.Titulo;
+                    filmeBuscado.IdGenero = filmeAtualizado.IdGenero;
+
+                }
+                _context.Filmes.Update(filmeBuscado!);
+                _context.SaveChanges();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public Filme BuscarPorId(Guid id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Filme filmeBuscado = _context.Filmes.Find(id.ToString());
+                return filmeBuscado;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public void Cadastrar(Filme novoFilme)
         {
-            throw new NotImplementedException();
+            try
+            {
+                novoFilme.IdFilme = Guid.NewGuid().ToString();
+                _context.Filmes.Add(novoFilme);
+                _context.SaveChanges();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public void Deletar(Guid id)
@@ -32,7 +92,16 @@ namespace FilmesMoura.WebAPI.Repository
 
         public List<Filme> Listar()
         {
-            throw new NotImplementedException();
+            try
+            {
+                List<Filme> listaFilme = _context.Filmes.ToList();
+                return listaFilme;
+            }
+            catch (Exception e)
+            {
+
+                throw;
+            }
         }
     }
 }
