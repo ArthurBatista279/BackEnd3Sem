@@ -87,7 +87,21 @@ namespace FilmesMoura.WebAPI.Repository
 
         public void Deletar(Guid id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Filme filmeBuscado = _context.Filmes.Find(id.ToString()!);
+
+                if (filmeBuscado != null)
+                {
+                    _context.Filmes.Remove(filmeBuscado);
+                    _context.SaveChanges();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public List<Filme> Listar()

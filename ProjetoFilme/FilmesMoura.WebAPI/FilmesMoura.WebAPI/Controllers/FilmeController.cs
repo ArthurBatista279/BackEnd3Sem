@@ -67,17 +67,32 @@ namespace FilmesMoura.WebAPI.Controllers
                 return BadRequest(erro.Message);
             }
         }
-            [HttpPut]
-            public IActionResult Put(Filme filme)
+        [HttpPut]
+        public IActionResult Put(Filme filme)
+        {
+            try
             {
-                try
-                {
-                    _filmeRepository.AtualizarIdCorpo(filme);
-                    return NoContent();
-                }
-                catch (Exception erro)
-                {
-                    return BadRequest(erro.Message);
+                _filmeRepository.AtualizarIdCorpo(filme);
+                return NoContent();
+            }
+            catch (Exception erro)
+            {
+                return BadRequest(erro.Message);
             }
         }
+        [HttpDelete("{id}")]
+
+        public IActionResult Delete(Guid id)
+        {
+            try
+            {
+                _filmeRepository.Deletar(id);
+                return NoContent();
+            }
+            catch (Exception erro)
+            {
+                return BadRequest(erro.Message);
+            }
+        }
+    }
 }
