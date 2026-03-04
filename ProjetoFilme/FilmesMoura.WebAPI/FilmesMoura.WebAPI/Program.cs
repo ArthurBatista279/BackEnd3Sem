@@ -3,6 +3,8 @@ using FilmesMoura.WebAPI.Interfaces;
 using FilmesMoura.WebAPI.BdContextFilme;
 using FilmesMoura.WebAPI.Repository;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi;
+using System.Reflection.Metadata;
 
 
 
@@ -47,7 +49,45 @@ builder.Services.AddSwaggerGen(options =>
     options.SwaggerDoc("v1", new Microsoft.OpenApi.OpenApiInfo
     {
         Version = "v1",
-        Title = "Filmes API"
+        Title = "Filmes API",
+        Description = "API para gerenciamento de filmes e gêneros",
+        TermsOfService = new Uri("https://example.com/terms"),
+        Contact = new Microsoft.OpenApi.OpenApiContact
+        {
+            Name = "ArthurBatista279",
+            Url = new Uri("https://example.com/license")
+        },
+
+        License = new Microsoft.OpenApi.OpenApiLicense
+        {
+            Name = "Example License",
+            Url = new Uri("https://example.com/license")
+        }
+        });
+
+    options.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.OpenApiSecurityScheme
+    {
+            Name = "Authorization",
+            Type = SecuritySchemeType.Http,
+            Scheme = "Bearer",
+            BearerFormat = "JWT",
+            In = ParameterLocation.Header,
+            Description = "Insira o Token JWT:"
+        });
+
+    options.AddSecurityRequirement(document => new OpenApiSecurityRequirement
+    {
+        [new OpenApiSecuritySchemeReference("Bearer", document)] = Array.Empty<string>().ToList()
+    });
+});
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyHeader()
+               .AllowAnyMethod();      
     });
 });
 
@@ -65,9 +105,13 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-app.UseAuthentication();
+app.UseCors("CorsPolicy");
+
+app.UseStaticFiles();
 
 app.UseAuthentication();
+
+app.UseAuthorization();
 
 app.MapControllers();
 app.Run();

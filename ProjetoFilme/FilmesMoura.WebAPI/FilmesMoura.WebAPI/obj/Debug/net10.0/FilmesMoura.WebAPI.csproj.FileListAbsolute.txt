@@ -304,7 +304,6 @@ C:\Users\54534361823\Desktop\BackEnd3Sem\ProjetoFilme\FilmesMoura.WebAPI\FilmesM
 C:\Users\54534361823\Desktop\BackEnd3Sem\ProjetoFilme\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\54534361823\Desktop\BackEnd3Sem\ProjetoFilme\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\54534361823\Desktop\BackEnd3Sem\ProjetoFilme\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\54534361823\Desktop\BackEnd3Sem\ProjetoFilme\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\54534361823\Desktop\BackEnd3Sem\ProjetoFilme\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\FilmesMo.7713A691.Up2Date
 C:\Users\54534361823\Desktop\BackEnd3Sem\ProjetoFilme\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\FilmesMoura.WebAPI.dll
 C:\Users\54534361823\Desktop\BackEnd3Sem\ProjetoFilme\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\refint\FilmesMoura.WebAPI.dll
@@ -318,3 +317,5 @@ C:\Users\54534361823\Desktop\BackEnd3Sem\ProjetoFilme\FilmesMoura.WebAPI\FilmesM
 C:\Users\54534361823\Desktop\BackEnd3Sem\ProjetoFilme\FilmesMoura.WebAPI\FilmesMoura.WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\54534361823\Desktop\BackEnd3Sem\ProjetoFilme\FilmesMoura.WebAPI\FilmesMoura.WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\54534361823\Desktop\BackEnd3Sem\ProjetoFilme\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\FilmesMoura.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\54534361823\Desktop\BackEnd3Sem\ProjetoFilme\FilmesMoura.WebAPI\FilmesMoura.WebAPI\bin\Debug\net10.0\FilmesMoura.WebAPI.staticwebassets.runtime.json
+C:\Users\54534361823\Desktop\BackEnd3Sem\ProjetoFilme\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

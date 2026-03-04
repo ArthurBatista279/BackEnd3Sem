@@ -2,6 +2,16 @@
   "openapi": "3.0.4",
   "info": {
     "title": "Filmes API",
+    "description": "API para gerenciamento de filmes e gêneros",
+    "termsOfService": "https://example.com/terms",
+    "contact": {
+      "name": "ArthurBatista279",
+      "url": "https://example.com/license"
+    },
+    "license": {
+      "name": "Example License",
+      "url": "https://example.com/license"
+    },
     "version": "v1"
   },
   "paths": {
@@ -22,19 +32,33 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/Filme"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Filme"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Filme"
+                "type": "object",
+                "properties": {
+                  "Titulo": {
+                    "type": "string"
+                  },
+                  "Imagem": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "IdGenero": {
+                    "type": "string",
+                    "format": "uuid"
+                  }
+                }
+              },
+              "encoding": {
+                "Titulo": {
+                  "style": "form"
+                },
+                "Imagem": {
+                  "style": "form"
+                },
+                "IdGenero": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -110,23 +134,39 @@
               "type": "string",
               "format": "uuid"
             }
+          },
+          {
+            "name": "Titulo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "IdGenero",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
           }
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/Filme"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Filme"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Filme"
+                "type": "object",
+                "properties": {
+                  "Imagem": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "Imagem": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -484,8 +524,21 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Insira o Token JWT:",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
     }
   },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ],
   "tags": [
     {
       "name": "Filme"
