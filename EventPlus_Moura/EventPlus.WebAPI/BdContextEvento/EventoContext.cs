@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using EventPlus.WebAPI.Models;
 using Microsoft.EntityFrameworkCore;
