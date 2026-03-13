@@ -162,3 +162,5 @@ C:\Users\54534361823\Desktop\BackEnd3Sem\EventPlus_Moura\EventPlus.WebAPI\bin\De
 C:\Users\54534361823\Desktop\BackEnd3Sem\EventPlus_Moura\EventPlus.WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\54534361823\Desktop\BackEnd3Sem\EventPlus_Moura\EventPlus.WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\54534361823\Desktop\BackEnd3Sem\EventPlus_Moura\EventPlus.WebAPI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\54534361823\Desktop\BackEnd3Sem\EventPlus_Moura\EventPlus.WebAPI\bin\Debug\net10.0\JWT.dll
+C:\Users\54534361823\Desktop\BackEnd3Sem\EventPlus_Moura\EventPlus.WebAPI\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
