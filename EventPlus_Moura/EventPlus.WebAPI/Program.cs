@@ -23,6 +23,7 @@ public class Program
         builder.Services.AddScoped<IInstituicaoRepository, InstituicaoRepository>();
         builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
         builder.Services.AddScoped<IEventoRepository, EventoRepository>();
+        builder.Services.AddScoped<IPresencaRepository, PresenteRepository>();
 
         builder.Services.AddEndpointsApiExplorer();
 

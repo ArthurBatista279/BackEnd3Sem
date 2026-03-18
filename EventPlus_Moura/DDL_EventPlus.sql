@@ -68,17 +68,17 @@ CREATE TABLE ComentarioEvento(
 );
 GO
 
-SELECT * FROM TipoUsuario;
+	SELECT * FROM TipoUsuario;
 
-SELECT * FROM TipoEvento;
+	SELECT * FROM TipoEvento;
 
-SELECT * FROM Instituicao;
+	SELECT * FROM Instituicao;
 
-SELECT * FROM Usuario;
+	SELECT * FROM Usuario;
 
-SELECT * FROM Evento;
+	SELECT * FROM Evento;
 
-SELECT * FROM Presente;
+	SELECT * FROM Presente;
 
-SELECT * FROM ComentarioEvento;
-GO
+	SELECT * FROM ComentarioEvento;
+	GO
