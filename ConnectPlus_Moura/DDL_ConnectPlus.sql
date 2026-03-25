@@ -1,0 +1,26 @@
+CREATE DATABASE ConnectPlusDB;
+GO
+
+USE ConnectPlusDB;
+GO
+
+
+CREATE TABLE TipoContato (
+    Id_TipoContato UNIQUEIDENTIFIER PRIMARY KEY DEFAULT ((NEWID())),
+    Titulo VARCHAR(100) NOT NULL
+);
+GO
+
+
+CREATE TABLE Contato (
+    Id_Contato UNIQUEIDENTIFIER PRIMARY KEY DEFAULT ((NEWID())),
+    Nome VARCHAR(150) NOT NULL,
+    DadosDeContato VARCHAR(100) NOT NULL,
+    Imagem VARCHAR(255) NULL, 
+    Id_TipoContato UNIQUEIDENTIFIER NOT NULL,
+    
+ 
+    CONSTRAINT FK_Contato_TipoContato FOREIGN KEY (Id_TipoContato)
+    REFERENCES TipoContato(Id_TipoContato)
+);
+GO

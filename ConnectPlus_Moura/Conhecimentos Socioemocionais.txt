@@ -1,0 +1,47 @@
+Conhecimentos Socioemocionais:
+Demonstrar autogestão
+Demonstrar pensamento analítico
+Demonstrar inteligência emocional
+Demonstrar autonomia
+
+Conhecimentos Técnicos:
+Criou todas as classes, e suas propriedades, necessárias para a receber os dados requeridos na situação problema.
+Criou todos os métodos necessários para o funcionamento correto do sistema
+Utilizou encapsulmaneto e abstração para controle das informações dentro do projeto.
+Utilizou herança e polimorfismo quando necessário para evitar redundâncias de propriedades e métodos
+Criou interfaces quando necessário para padronizar propriedades e métodos das classes utilizadas no sistema
+Desenvolveu o diagrama de classes na ferramenta draw.io, coforme situação problema.
+Elaborou o diagrama de classes utilizando corretamente os conceitos de modelagem orientada a objetos, como classes, atributos, métodos, relacionamentos (associação, herança, composição, agregação) e visibilidade.
+Aplicar nomes em classes, métodos e variáveis de forma concisa e auto-explicativas, seguindo a situação problema.
+Efetuou indentação conforme boas práticas de desenvolvimento no desenvolvimento do projeto.
+Implementou corretamente o gerenciamento de rotas, definindo rotas claras e organizadas para atender às requisições do cliente no projeto.
+Realizou operações de manipulação de banco de dados (CRUD) de maneira eficiente, garantindo a integridade dos dados, utilizando consultas otimizadas, no desenvolvimento do projeto.
+Implementou um sistema de autenticação, utilizando métodos de autenticação padrão (como JWT ), e integrou APIs externas ou internas de forma eficiente, garantindo a troca segura de dados entre os serviços.
+Instalou o dotnet na versão 8, para o desenvolvimento do projeto.
+Utilizou o Visual Studio para o desenvolvimento dos projetos.
+Persistiu os dados enviados pela aplicação cliente(front-end) na base de dados conforme situação problema
+Validou todos os campos requeridos enviados pela aplicação cliente.
+Criou uma solução com a separação de pastas correta (domínio, repositório e controles) de acordo com a situação problema e seguindo as boas práticas de programação abordadas em aula
+Utilizou os verbos corretos na criação dos endpoints da API conforme padrão REST
+Retornou os dados após cadastro de um novo registro utilizando os códigos de status adequados
+Utilizou .NET Framework para a criação do sitema, conforme situação problema.
+Utilizou o ORM Entity Framework Core  para salvar dados na base de dados, durante o desenvolvimento do sistema.
+Realizou a conexão do banco de dados usando o arquivo Context no projeto.
+Realizou as operações de leitura, inserção, exclusão e atualização (CRUD – Create, Read, Update, Delete) com o banco de dados
+Criou os endpoints(rotas de acesso) no controller conforme situação problema
+Desenvolveu as funcionalidades conforme as regras de negócio especificadas no projeto.
+Compreendeu os processos, objetivos e requisitos do negócio que o sistema deve atender, conforme situação problema.
+Elaborou documentação de requisitos conforme informações coletadas com o cliente para as atividades propostas em aula
+Esquematizou os processos de construção para cada serviço idealizado na confecção do projeto
+Identificou atráves da documentação do projeto quais serão os serviços necessários para implementar a solução.
+Planejou as atividades e demandas necessárias para o desenvolvimento do projeto, de acordo com os requisitos destacados na documentação do software, utilizando a ferramenta Trello
+Definiu na documentação do projeto os softwares e ferramentas necessárias para o desenvolvimento do sistema (IDE, framework, editor de código, SGBD, etc).
+Elaborou a documentação contendo todos os dados necessários (Conforme o modelo disponibilizado em aula) para a confecção do sistema.
+Desenvolveu as funcionalidades conforme as regras de negócio especificadas no projeto.
+Implementou no projeto as funcionalidades conforme os requisitos definidos na documentação do software.
+
+Tópicos da aula:
+Criar as interfaces
+Criar os repositórios
+Criar os controllers
+Criar os Dtos
