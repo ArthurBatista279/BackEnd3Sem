@@ -1,3 +1,4 @@
+using Azure.AI.ContentSafety;
 using EventPlus.WebAPI.BdContextEvento;
 using EventPlus.WebAPI.Interfaces;
 using EventPlus.WebAPI.Repository;
@@ -24,10 +25,17 @@ public class Program
         builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
         builder.Services.AddScoped<IEventoRepository, EventoRepository>();
         builder.Services.AddScoped<IPresencaRepository, PresenteRepository>();
+        builder.Services.AddScoped<IComentarioEventoRepository, ComentarioEventoRepository>();
 
-        builder.Services.AddEndpointsApiExplorer();
+        // Configuração do Azure Content Safety
+        var endpoint = "#";
+        var apiKey = "#";
+
+        var client = new ContentSafetyClient(new Uri(endpoint), new Azure.AzureKeyCredential(apiKey));
+        builder.Services.AddSingleton(client);
 
         // O seu Swagger original - intacto!
+        builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen(options =>
         {
             options.SwaggerDoc("v1", new OpenApiInfo

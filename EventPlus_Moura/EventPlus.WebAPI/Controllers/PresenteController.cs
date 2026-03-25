@@ -23,7 +23,7 @@ public class PresenteController : ControllerBase
     /// <param name="idUsuario">Id do usuario para filtragem</param>
     /// <returns>Status Code 200 e uma lista de presença</returns>
     [HttpGet("ListarMinhas/{idUsuario}")]
-    public IActionResult ListarMinhas(Guid idUsuario) // Correção: O parâmetro agora é idUsuario
+    public IActionResult ListarMinhas(Guid idUsuario)
     {
         try
         {

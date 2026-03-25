@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "EventPlus.WebAPI.Controllers.ComentarioEventoController",
+    "Method": "Post",
+    "RelativePath": "api/ComentarioEvento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comentarioEvento",
+        "Type": "EventPlus.WebAPI.DTO.ComentarioEventoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EventPlus.WebAPI.Controllers.EventoController",
     "Method": "Listar",
     "RelativePath": "api/Evento",
