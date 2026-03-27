@@ -12,8 +12,12 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        // Add services to the container.
-        builder.Services.AddControllers();
+
+        builder.Services.AddControllers().AddJsonOptions(options =>
+        {
+            
+            options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+        });
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen(options =>
         {
@@ -53,7 +57,7 @@ public class Program
         app.UseSwaggerUI(c =>
         {
             c.SwaggerEndpoint("/swagger/v1/swagger.json", "ConnectPlus API v1");
-            c.RoutePrefix = string.Empty; // Define o Swagger como página inicial
+            c.RoutePrefix = string.Empty;
         });
 
         if (!app.Environment.IsDevelopment())
@@ -67,7 +71,7 @@ public class Program
         app.UseRouting();
 
         app.UseAuthorization();
-
+        
         app.MapControllers();
         
         app.MapStaticAssets();

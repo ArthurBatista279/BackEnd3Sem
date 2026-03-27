@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConnectPlus_Moura")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+563b15d7cbfc1810b27996a48f33a1a94cb50c06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe99b0e7afe27a228d762d3f608463547f881379")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConnectPlus_Moura")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConnectPlus_Moura")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
