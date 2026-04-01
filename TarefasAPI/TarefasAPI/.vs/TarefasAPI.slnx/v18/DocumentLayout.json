@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\54534361823\\Desktop\\TarefasAPI\\TarefasAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8726D532-51DF-4FB2-948C-7A1863BE9CDD}|TarefasAPI.csproj|c:\\users\\54534361823\\desktop\\tarefasapi\\tarefasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8726D532-51DF-4FB2-948C-7A1863BE9CDD}|TarefasAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8726D532-51DF-4FB2-948C-7A1863BE9CDD}|TarefasAPI.csproj|c:\\users\\54534361823\\desktop\\tarefasapi\\tarefasapi\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8726D532-51DF-4FB2-948C-7A1863BE9CDD}|TarefasAPI.csproj|solutionrelative:models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8726D532-51DF-4FB2-948C-7A1863BE9CDD}|TarefasAPI.csproj|c:\\users\\54534361823\\desktop\\tarefasapi\\tarefasapi\\dto\\tarefasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8726D532-51DF-4FB2-948C-7A1863BE9CDD}|TarefasAPI.csproj|solutionrelative:dto\\tarefasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8726D532-51DF-4FB2-948C-7A1863BE9CDD}|TarefasAPI.csproj|c:\\users\\54534361823\\desktop\\tarefasapi\\tarefasapi\\interfaces\\itarefasrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8726D532-51DF-4FB2-948C-7A1863BE9CDD}|TarefasAPI.csproj|solutionrelative:interfaces\\itarefasrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8726D532-51DF-4FB2-948C-7A1863BE9CDD}|TarefasAPI.csproj|c:\\users\\54534361823\\desktop\\tarefasapi\\tarefasapi\\controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8726D532-51DF-4FB2-948C-7A1863BE9CDD}|TarefasAPI.csproj|solutionrelative:controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8726D532-51DF-4FB2-948C-7A1863BE9CDD}|TarefasAPI.csproj|c:\\users\\54534361823\\desktop\\tarefasapi\\tarefasapi\\repositories\\tarefasrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8726D532-51DF-4FB2-948C-7A1863BE9CDD}|TarefasAPI.csproj|solutionrelative:repositories\\tarefasrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8726D532-51DF-4FB2-948C-7A1863BE9CDD}|TarefasAPI.csproj|c:\\users\\54534361823\\desktop\\tarefasapi\\tarefasapi\\bdcontexttarefas\\tarefascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8726D532-51DF-4FB2-948C-7A1863BE9CDD}|TarefasAPI.csproj|solutionrelative:bdcontexttarefas\\tarefascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TarefasDTO.cs",
+              "DocumentMoniker": "C:\\Users\\54534361823\\Desktop\\TarefasAPI\\TarefasAPI\\DTO\\TarefasDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\TarefasDTO.cs",
+              "ToolTip": "C:\\Users\\54534361823\\Desktop\\TarefasAPI\\TarefasAPI\\DTO\\TarefasDTO.cs",
+              "RelativeToolTip": "DTO\\TarefasDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T12:18:49.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TarefasController.cs",
+              "DocumentMoniker": "C:\\Users\\54534361823\\Desktop\\TarefasAPI\\TarefasAPI\\Controllers\\TarefasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TarefasController.cs",
+              "ToolTip": "C:\\Users\\54534361823\\Desktop\\TarefasAPI\\TarefasAPI\\Controllers\\TarefasController.cs",
+              "RelativeToolTip": "Controllers\\TarefasController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwCAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T12:04:20.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TarefasRepositories.cs",
+              "DocumentMoniker": "C:\\Users\\54534361823\\Desktop\\TarefasAPI\\TarefasAPI\\Repositories\\TarefasRepositories.cs",
+              "RelativeDocumentMoniker": "Repositories\\TarefasRepositories.cs",
+              "ToolTip": "C:\\Users\\54534361823\\Desktop\\TarefasAPI\\TarefasAPI\\Repositories\\TarefasRepositories.cs",
+              "RelativeToolTip": "Repositories\\TarefasRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T11:57:59.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITarefasRepositories.cs",
+              "DocumentMoniker": "C:\\Users\\54534361823\\Desktop\\TarefasAPI\\TarefasAPI\\Interfaces\\ITarefasRepositories.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ITarefasRepositories.cs",
+              "ToolTip": "C:\\Users\\54534361823\\Desktop\\TarefasAPI\\TarefasAPI\\Interfaces\\ITarefasRepositories.cs",
+              "RelativeToolTip": "Interfaces\\ITarefasRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T11:51:17.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tarefa.cs",
+              "DocumentMoniker": "C:\\Users\\54534361823\\Desktop\\TarefasAPI\\TarefasAPI\\Models\\Tarefa.cs",
+              "RelativeDocumentMoniker": "Models\\Tarefa.cs",
+              "ToolTip": "C:\\Users\\54534361823\\Desktop\\TarefasAPI\\TarefasAPI\\Models\\Tarefa.cs",
+              "RelativeToolTip": "Models\\Tarefa.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T11:50:36.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TarefasContext.cs",
+              "DocumentMoniker": "C:\\Users\\54534361823\\Desktop\\TarefasAPI\\TarefasAPI\\BdContextTarefas\\TarefasContext.cs",
+              "RelativeDocumentMoniker": "BdContextTarefas\\TarefasContext.cs",
+              "ToolTip": "C:\\Users\\54534361823\\Desktop\\TarefasAPI\\TarefasAPI\\BdContextTarefas\\TarefasContext.cs",
+              "RelativeToolTip": "BdContextTarefas\\TarefasContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T11:50:31.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\54534361823\\Desktop\\TarefasAPI\\TarefasAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\54534361823\\Desktop\\TarefasAPI\\TarefasAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T11:39:42.619Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

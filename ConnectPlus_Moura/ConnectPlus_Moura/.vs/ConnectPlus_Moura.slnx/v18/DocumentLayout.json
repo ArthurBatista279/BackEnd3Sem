@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\54534361823\\Desktop\\BackEnd3Sem\\ConnectPlus_Moura\\ConnectPlus_Moura\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{98A42AAC-8A87-6A1B-C356-315E7C3D29F6}|ConnectPlus_Moura.csproj|c:\\users\\54534361823\\desktop\\backend3sem\\connectplus_moura\\connectplus_moura\\repositories\\contatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A42AAC-8A87-6A1B-C356-315E7C3D29F6}|ConnectPlus_Moura.csproj|solutionrelative:repositories\\contatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A42AAC-8A87-6A1B-C356-315E7C3D29F6}|ConnectPlus_Moura.csproj|c:\\users\\54534361823\\desktop\\backend3sem\\connectplus_moura\\connectplus_moura\\interfaces\\icontatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A42AAC-8A87-6A1B-C356-315E7C3D29F6}|ConnectPlus_Moura.csproj|solutionrelative:interfaces\\icontatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A42AAC-8A87-6A1B-C356-315E7C3D29F6}|ConnectPlus_Moura.csproj|c:\\users\\54534361823\\desktop\\backend3sem\\connectplus_moura\\connectplus_moura\\interfaces\\itipocontatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A42AAC-8A87-6A1B-C356-315E7C3D29F6}|ConnectPlus_Moura.csproj|solutionrelative:interfaces\\itipocontatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A42AAC-8A87-6A1B-C356-315E7C3D29F6}|ConnectPlus_Moura.csproj|c:\\users\\54534361823\\desktop\\backend3sem\\connectplus_moura\\connectplus_moura\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A42AAC-8A87-6A1B-C356-315E7C3D29F6}|ConnectPlus_Moura.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{98A42AAC-8A87-6A1B-C356-315E7C3D29F6}|ConnectPlus_Moura.csproj|c:\\users\\54534361823\\desktop\\backend3sem\\connectplus_moura\\connectplus_moura\\models\\contato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98A42AAC-8A87-6A1B-C356-315E7C3D29F6}|ConnectPlus_Moura.csproj|solutionrelative:models\\contato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98A42AAC-8A87-6A1B-C356-315E7C3D29F6}|ConnectPlus_Moura.csproj|c:\\users\\54534361823\\desktop\\backend3sem\\connectplus_moura\\connectplus_moura\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98A42AAC-8A87-6A1B-C356-315E7C3D29F6}|ConnectPlus_Moura.csproj|solutionrelative:controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A42AAC-8A87-6A1B-C356-315E7C3D29F6}|ConnectPlus_Moura.csproj|c:\\users\\54534361823\\desktop\\backend3sem\\connectplus_moura\\connectplus_moura\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A42AAC-8A87-6A1B-C356-315E7C3D29F6}|ConnectPlus_Moura.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,19 +39,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ContatoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\54534361823\\Desktop\\BackEnd3Sem\\ConnectPlus_Moura\\ConnectPlus_Moura\\Repositories\\ContatoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ContatoRepository.cs",
+              "ToolTip": "C:\\Users\\54534361823\\Desktop\\BackEnd3Sem\\ConnectPlus_Moura\\ConnectPlus_Moura\\Repositories\\ContatoRepository.cs",
+              "RelativeToolTip": "Repositories\\ContatoRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T11:58:12.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IContatoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\54534361823\\Desktop\\BackEnd3Sem\\ConnectPlus_Moura\\ConnectPlus_Moura\\Interfaces\\IContatoRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IContatoRepository.cs",
+              "ToolTip": "C:\\Users\\54534361823\\Desktop\\BackEnd3Sem\\ConnectPlus_Moura\\ConnectPlus_Moura\\Interfaces\\IContatoRepository.cs",
+              "RelativeToolTip": "Interfaces\\IContatoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T11:51:26.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITipoContatoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\54534361823\\Desktop\\BackEnd3Sem\\ConnectPlus_Moura\\ConnectPlus_Moura\\Interfaces\\ITipoContatoRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ITipoContatoRepository.cs",
+              "ToolTip": "C:\\Users\\54534361823\\Desktop\\BackEnd3Sem\\ConnectPlus_Moura\\ConnectPlus_Moura\\Interfaces\\ITipoContatoRepository.cs",
+              "RelativeToolTip": "Interfaces\\ITipoContatoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T11:51:25.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Contato.cs",
               "DocumentMoniker": "C:\\Users\\54534361823\\Desktop\\BackEnd3Sem\\ConnectPlus_Moura\\ConnectPlus_Moura\\Models\\Contato.cs",
               "RelativeDocumentMoniker": "Models\\Contato.cs",
               "ToolTip": "C:\\Users\\54534361823\\Desktop\\BackEnd3Sem\\ConnectPlus_Moura\\ConnectPlus_Moura\\Models\\Contato.cs",
               "RelativeToolTip": "Models\\Contato.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T12:35:37.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ContatoController.cs",
               "DocumentMoniker": "C:\\Users\\54534361823\\Desktop\\BackEnd3Sem\\ConnectPlus_Moura\\ConnectPlus_Moura\\Controllers\\ContatoController.cs",
               "RelativeDocumentMoniker": "Controllers\\ContatoController.cs",
@@ -52,13 +103,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\54534361823\\Desktop\\BackEnd3Sem\\ConnectPlus_Moura\\ConnectPlus_Moura\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\54534361823\\Desktop\\BackEnd3Sem\\ConnectPlus_Moura\\ConnectPlus_Moura\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAewCQAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCQAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T12:17:59.994Z",
               "EditorCaption": ""

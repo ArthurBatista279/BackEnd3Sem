@@ -7,7 +7,7 @@ namespace ConnectPlus_Moura.Interfaces;
 
 public interface IContatoRepository
 {
-    Task<List<Contato>> ListarAsync();
+    Task<List<Contato>> ListarAsync(); 
     Task<Contato?> BuscarPorIdAsync(Guid id);
     Task<List<Contato>> ListarPorTipoContatoAsync(Guid idTipoContato);
     Task<Contato> CadastrarAsync(Contato contato);
